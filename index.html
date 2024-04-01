@@ -26,10 +26,15 @@
             </nav>
             <address class="headr-addres">
                 <ul class="headr-addres-all">
-                    <li><a class="head-info" href="mailto:info@devstudio.com" target="_blank" rel="noopener noreferrer nofollow">info@devstudio.com</a></li>
+                    <li><a class="head-infoa" href="mailto:info@devstudio.com" target="_blank" rel="noopener noreferrer nofollow">info@devstudio.com</a></li>
                     <li><a class="head-info" href="tel:+110001111111" target="_blank" rel="noopener noreferrer nofollow">+11 (000) 111-11-11</a></li>
                 </ul>
             </address>
+            <button type="button" class="close-menu">
+                <svg class="headr-svg" width="24" height="24" >
+                    <use href="./images/icons.svg#icon-heroicons-solid_menu"></use>
+                </svg>
+            </button>
        </div>
     </header>
     <main>
@@ -84,11 +89,11 @@
             </div>
         </section>
         <section class="secc">
-            <div class="container">
+            <div class="container secc-container">
                 <h2 class="secc-main">Our Team</h2>
                 <ul class="secc-block">
                     <li class="secc-list">
-                        <img src="./images/mark.jpg" alt="Product Designer" width="264" height="260">
+                        <img srcset="./images/markx2.jpg 2x, ./images/mark.jpg 1x" src="./images/mark.jpg" alt="Product Designer" width="264" height="260">
                         <div class="secc-pocada">
                             <h3 class="secc-img-main">Mark Guerrero</h3>
                             <p class="secc-img-text">Product Designer</p>
@@ -125,7 +130,7 @@
                         </div>
                     </li>
                     <li class="secc-list">
-                        <img src="./images/tom.jpg" alt="Frontend Developer" width="264" height="260">
+                        <img srcset="./images/tomx2.jpg 2x, ./images/tom.jpg 1x" src="./images/tom.jpg" alt="Frontend Developer" width="264" height="260">
                         <div class="secc-pocada">
                             <h3 class="secc-img-main">Tom Ford</h3>
                             <p  class="secc-img-text">Frontend Developer</p>
@@ -162,7 +167,7 @@
                         </div>
                     </li>
                     <li class="secc-list">
-                        <img src="./images/camila.jpg" alt="Marketing" width="264" height="260">
+                        <img srcset="./images/camilax2.jpg 2x, ./images/camila.jpg 1x" src="./images/camila.jpg" alt="Marketing" width="264" height="260">
                         <div class="secc-pocada">
                             <h3 class="secc-img-main">Camila Garcia</h3>
                             <p class="secc-img-text">Marketing</p>
@@ -199,7 +204,7 @@
                         </div>
                     </li>
                     <li class="secc-list">
-                        <img src="./images/daniel.jpg" alt="UI Designer" width="264" height="260">
+                        <img srcset="./images/danielx2.jpg 2x, ./images/daniel.jpg 1x" src="./images/daniel.jpg" alt="UI Designer" width="264" height="260">
                         <div class="secc-pocada">
                             <h3 class="secc-img-main">Daniel Wilson</h3>
                             <p class="secc-img-text">UI Designer</p>
@@ -244,7 +249,12 @@
                 <ul class="secd-block">
                     <li class="secd-block-qaz">
                         <div class="secd-img">
-                            <img src="./images/1.jpg" alt="Banking App" width="360" height="300">
+                            <picture>
+                                <source srcset="./images/1x2.jpg 2x, ./images/1.jpg 1x " media="(min-width: 1158px)">
+                                <source srcset="./images/1px2.jpg 2x, ./images/1p.jpg 1x " media="(min-width: 768px)">
+                                <source srcset="./images/1mx2.jpg 2x, ./images/1m.jpg 1x " media="(max-width: 767px)">
+                                <img src="./images/1.jpg" alt="Banking App" width="360" height="300">
+                            </picture>
                             <p class="secd-par">
                                 14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
                             </p>
@@ -256,7 +266,12 @@
                     </li>
                     <li class="secd-block-qaz">
                         <div class="secd-img">
-                            <img src="./images/2.jpg" alt="Cashless Payment" width="360" height="300">
+                            <picture>
+                                <source srcset="./images/2x2.jpg 2x, ./images/2.jpg 1x " media="(min-width: 1158px)">
+                                <source srcset="./images/2px2.jpg 2x, ./images/2p.jpg 1x " media="(min-width: 768px)">
+                                <source srcset="./images/2mx2.jpg 2x, ./images/2m.jpg 1x " media="(max-width: 767px)">
+                                <img src="./images/2.jpg" alt="Banking App" width="360" height="300">
+                            </picture>
                             <p class="secd-par">
                                 14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
                             </p>
@@ -268,7 +283,12 @@
                     </li>
                     <li class="secd-block-qaz">
                         <div class="secd-img">
-                            <img src="./images/3.jpg" alt="Meditation App" width="360" height="300">
+                            <picture>
+                                <source srcset="./images/3x2.jpg 2x, ./images/3.jpg 1x " media="(min-width: 1158px)">
+                                <source srcset="./images/3px2.jpg 2x, ./images/3p.jpg 1x " media="(min-width: 768px)">
+                                <source srcset="./images/3mx2.jpg 2x, ./images/3m.jpg 1x " media="(max-width: 767px)">
+                                <img src="./images/3.jpg" alt="Banking App" width="360" height="300">
+                            </picture>
                             <p class="secd-par">
                                 14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
                             </p>
@@ -280,7 +300,12 @@
                     </li>
                     <li class="secd-block-qaz">
                         <div class="secd-img">
-                            <img src="./images/4.jpg" alt="Taxi Service" width="360" height="300">
+                            <picture>
+                                <source srcset="./images/4x2.jpg 2x, ./images/4.jpg 1x " media="(min-width: 1158px)">
+                                <source srcset="./images/4px2.jpg 2x, ./images/4p.jpg 1x " media="(min-width: 768px)">
+                                <source srcset="./images/4mx2.jpg 2x, ./images/4m.jpg 1x " media="(max-width: 767px)">
+                                <img src="./images/4.jpg" alt="Banking App" width="360" height="300">
+                            </picture>
                             <p class="secd-par">
                                 14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
                             </p>
@@ -292,7 +317,12 @@
                     </li>
                     <li class="secd-block-qaz">
                         <div class="secd-img">
-                            <img src="./images/5.jpg" alt="Screen Illustrations" width="360" height="300">
+                            <picture>
+                                <source srcset="./images/5x2.jpg 2x, ./images/5.jpg 1x " media="(min-width: 1158px)">
+                                <source srcset="./images/5px2.jpg 2x, ./images/5p.jpg 1x " media="(min-width: 768px)">
+                                <source srcset="./images/5mx2.jpg 2x, ./images/5m.jpg 1x " media="(max-width: 767px)">
+                                <img src="./images/5.jpg" alt="Banking App" width="360" height="300">
+                            </picture>
                             <p class="secd-par">
                                 14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
                             </p>
@@ -304,7 +334,12 @@
                     </li>
                     <li class="secd-block-qaz">
                         <div class="secd-img">
-                            <img src="./images/6.jpg" alt="Online Courses" width="360" height="300">
+                            <picture>
+                                <source srcset="./images/6x2.jpg 2x, ./images/6.jpg 1x " media="(min-width: 1158px)">
+                                <source srcset="./images/6px2.jpg 2x, ./images/6p.jpg 1x " media="(min-width: 768px)">
+                                <source srcset="./images/6mx2.jpg 2x, ./images/6m.jpg 1x " media="(max-width: 767px)">
+                                <img src="./images/6.jpg" alt="Banking App" width="360" height="300">
+                            </picture>
                             <p class="secd-par">
                                 14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
                             </p>
@@ -373,7 +408,7 @@
             </div>
         </div>
     </footer>
-    <div class="backgrop is-open">
+    <div class="backgrop">
         <div class="modal">
             <button type="button" class="modal-close">
                 <svg class="modal-close-svg" width="8" height="8">
@@ -423,6 +458,64 @@
                 </div>
                 <button class="modal-send" type="submit">Send</button>
             </form>
+        </div>
+    </div>
+    <div class="mob-menu">
+        <div class="mob-modal">
+            <div>
+                <button type="button" class="mob-close">
+                    <svg class="mob-close-svg" width="8" height="8">
+                        <use href="./images/icons.svg#icon-Vector4"></use>
+                    </svg>
+                </button>
+                <nav class="mob-all">
+                    <ul>
+                        <li class="mob-list"><a class="mob-main" href="./index.html">Studio</a></li>
+                        <li class="mob-list"><a class="mob-main" href="">Portfolio</a></li>
+                        <li class="mob-list"><a class="mob-main" href="">Contacts</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div>
+                <address class="mob-addres">
+                    <ul>
+                        <li class="mob-addres-all"><a class="mob-info" href="mailto:info@devstudio.com" target="_blank"
+                                rel="noopener noreferrer nofollow">info@devstudio.com</a></li>
+                        <li class="mob-addres-all"><a class="mob-info" href="tel:+110001111111" target="_blank" rel="noopener noreferrer nofollow">+11 (000)
+                                111-11-11</a></li>
+                    </ul>
+                </address>
+                <ul class="mob-soc">
+                    <li class="mob-pos">
+                        <a class="mob-pos-qaz" href="./index.html">
+                            <svg class="mob-pos-svg" width="16" height="16">
+                                <use href="./images/icons.svg#icon-instagram-2"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="mob-pos">
+                        <a class="mob-pos-qaz" href="./index.html">
+                            <svg class="mob-pos-svg" width="16" height="16">
+                                <use href="./images/icons.svg#icon-twitter-1"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="mob-pos">
+                        <a class="mob-pos-qaz" href="./index.html">
+                            <svg class="mob-pos-svg" width="16" height="16">
+                                <use href="./images/icons.svg#icon-facebook-1"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="mob-pos">
+                        <a class="mob-pos-qaz" href="./index.html">
+                            <svg class="mob-pos-svg" width="16" height="16">
+                                <use href="./images/icons.svg#icon-linkedin-1"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
 </body>
