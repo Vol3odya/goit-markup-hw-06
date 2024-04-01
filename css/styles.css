@@ -529,9 +529,7 @@ body{
         width: calc((100% - 3 * 24px) / 4);
     }
     .secb-svg-svg{
-        /*position: relative;*/
         margin: auto;
-        padding: auto;
         border: 1px solid #8e8f99;
         border-radius: 4px;
         width: 264px;
@@ -655,7 +653,6 @@ body{
     }
     .secc-list{
         width: calc((100% - 24px) / 2);
-        margin: center;
    }
 }
 @media screen and (min-width:1158px) {
@@ -859,7 +856,7 @@ body{
     background-color: #31d0aa;
 }
 .foot-mail{
-    padding-right: 0 auto;
+    padding-right: 0;
 }
 .foot-mail-text{
     font-weight: 500;
